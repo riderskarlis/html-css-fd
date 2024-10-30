@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Forma</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>o</h1>
+    <form action="#">
+      <label for="name">Vārds: </label>
+      <br />
+      <input type="text" name="name" id="" />
+      <br />
+      <label for="temas">Tēmas: </label>
+      <br />
+      <select name="temas" id="">
+        <option value="1">Tehniskais atbalsts</option>
+        <option value="2">Piedāvājumi</option>
+        <option value="3">Vispārīgi jautājumi</option>
+      </select>
+      <br />
+      <label for="jaunumi">Jūs piekrītat saņemt jaunumus: </label>
+      <br />
+      <input type="checkbox" name="jaunumi" id="" />
+      <br />
+      <button type="submit">Iesniegt</button>
+    </form>
   </body>
 </html>
